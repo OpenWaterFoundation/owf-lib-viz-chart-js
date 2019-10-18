@@ -1,0 +1,6 @@
+# Ignore log files
+*.log
+
+# Microsoft temporary files
+*.tmp
+~$*
