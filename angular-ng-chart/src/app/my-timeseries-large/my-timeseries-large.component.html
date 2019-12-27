@@ -1,0 +1,10 @@
+<div *ngIf="isDataAvaliable">
+    <div style="display: block; max-width: 900px; margin-left: auto; margin-right: auto;">
+        <canvas baseChart
+            [datasets]="chartData"
+            [labels]="chartLabels"
+            [options]="chartOptions"
+            [legend]="chartLegend"
+            [chartType]="chartType"></canvas>
+    </div>
+</div>
