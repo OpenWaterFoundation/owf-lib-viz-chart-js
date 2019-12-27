@@ -11,6 +11,7 @@ import { MyBarChartComponent } from './my-bar-chart/my-bar-chart.component';
 import { MyTimeseriesChartComponent } from './my-timeseries-chart/my-timeseries-chart.component';
 import { MyDoughnutChartComponent } from './my-doughnut-chart/my-doughnut-chart.component';
 import { MyTimeseriesLargeComponent } from './my-timeseries-large/my-timeseries-large.component';
+import { MyLineChartComponent } from './my-line-chart/my-line-chart.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MyTimeseriesLargeComponent } from './my-timeseries-large/my-timeseries-
     MyBarChartComponent,
     MyTimeseriesChartComponent,
     MyDoughnutChartComponent,
-    MyTimeseriesLargeComponent
+    MyTimeseriesLargeComponent,
+    MyLineChartComponent
   ],
   imports: [
     BrowserModule,
