@@ -9,34 +9,21 @@ import 'chartjs-plugin-zoom';
 export class MyTimeseriesChartComponent implements OnInit {
   public barChartOptions = {
     fill: false,
-      plugins: {
-        zoom: {
-          pan: {
-            enabled: true,
-            mode: 'x'
-          },
-          zoom: {
-            enabled: true,
-            mode: 'x',
-            // drag: true
-          }
+    plugins: {
+      zoom: {
+        pan: {
+          enabled: true,
+          mode: 'x'
         },
+        zoom: {
+          enabled: true,
+          mode: 'x',
+          // drag: true
+        }
       },
-      responsive: true,
-      scales: {
-      //   xAxes: [{
-      //     type: 'time',
-      //     time:{
-      //       // unit: 'day',
-      //       displayFormats: 'll'
-      //     },
-      //     distribution: 'linear',
-      //     display: true,
-      //       scaleLabel: {
-      //         display: true,
-      //         labelString: "Date",
-      //       }
-      // }],
+    },
+    responsive: true,
+    scales: {
       xAxes: [{
         type: 'time',
         distribution: "linear",
@@ -64,7 +51,6 @@ export class MyTimeseriesChartComponent implements OnInit {
     }
   };
 
-  // public barChartLabels = ["2017-08-16", "2017-08-17", "2017-08-18", "2017-08-19", "2017-08-20", "2017-08-21", "2017-08-22", "2017-08-23"];
   public barChartType = 'line';
   public barChartLegend = true;
 
@@ -97,22 +83,6 @@ export class MyTimeseriesChartComponent implements OnInit {
         x: new Date("2017-08-23"),
         y: 312
       }],
-      // }, {
-      //   // x: new Date("2017-08-19T00:00:00-06:00"), 
-      //   // y: 250
-      // }, {
-      //   // x: new Date("2017-08-20T00:00:00-06:00"), 
-      //   // y: 280
-      // }, {
-      //   // x: new Date("2017-08-21T00:00:00-06:00"), 
-      //   // y: 250
-      // }, {
-      //   // x: new Date("2017-08-22T00:00:00-06:00"), 
-      //   // y: 300
-      // }, {
-      //   // x: new Date("2017-08-23T00:00:00-06:00"), 
-      //   // y: 200
-      // }],
       borderColor: '#fe8b36',
       backgroundColor: '#fe8b36',
       lineTension: 0
@@ -150,11 +120,6 @@ export class MyTimeseriesChartComponent implements OnInit {
       lineTension: 0
     }
   ];
-
-  // public barChartData = [
-  //   {data: [65, 59, 80, 81, 56, 55, 40], label: 'Series A'},
-  //   {data: [28, 48, 40, 19, 86, 27, 90], label: 'Series B'}
-  // ];
 
   constructor() { }
 

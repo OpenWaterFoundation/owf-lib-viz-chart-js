@@ -2,8 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { ChartsModule } from 'ng2-charts';
-// import { chartjsPluginZoom } from 'chartjs-plugin-zoom';
-// import { HammerModule } from 'angular-hammer';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -29,9 +27,7 @@ import { MyPieChartComponent } from './my-pie-chart/my-pie-chart.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ChartsModule,
-    // HammerModule
-    // chartjsPluginZoom
+    ChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
