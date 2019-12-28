@@ -6,6 +6,7 @@ import { MyDoughnutChartComponent } from './my-doughnut-chart/my-doughnut-chart.
 import { MyTimeseriesLargeComponent } from './my-timeseries-large/my-timeseries-large.component';
 import { MyLineChartComponent } from './my-line-chart/my-line-chart.component';
 import { MyRadarChartComponent } from './my-radar-chart/my-radar-chart.component';
+import { MyPieChartComponent } from './my-pie-chart/my-pie-chart.component';
 
 const routes: Routes = [
   {path: 'bar-chart', component: MyBarChartComponent},
@@ -14,6 +15,7 @@ const routes: Routes = [
   {path: 'large-timeseries-chart', component: MyTimeseriesLargeComponent},
   {path: 'line-chart', component: MyLineChartComponent},
   {path: 'radar-chart', component: MyRadarChartComponent},
+  {path: 'pie-chart', component: MyPieChartComponent},
   {path: '**', component: MyBarChartComponent}
 ];
 
