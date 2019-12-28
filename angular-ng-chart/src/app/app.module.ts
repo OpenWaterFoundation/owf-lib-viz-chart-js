@@ -12,6 +12,8 @@ import { MyTimeseriesChartComponent } from './my-timeseries-chart/my-timeseries-
 import { MyDoughnutChartComponent } from './my-doughnut-chart/my-doughnut-chart.component';
 import { MyTimeseriesLargeComponent } from './my-timeseries-large/my-timeseries-large.component';
 import { MyLineChartComponent } from './my-line-chart/my-line-chart.component';
+import { MyRadarChartComponent } from './my-radar-chart/my-radar-chart.component';
+import { MyPieChartComponent } from './my-pie-chart/my-pie-chart.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { MyLineChartComponent } from './my-line-chart/my-line-chart.component';
     MyTimeseriesChartComponent,
     MyDoughnutChartComponent,
     MyTimeseriesLargeComponent,
-    MyLineChartComponent
+    MyLineChartComponent,
+    MyRadarChartComponent,
+    MyPieChartComponent
   ],
   imports: [
     BrowserModule,
