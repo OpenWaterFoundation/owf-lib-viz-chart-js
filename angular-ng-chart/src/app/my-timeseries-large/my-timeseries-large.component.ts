@@ -3,6 +3,7 @@ import * as $ from "jquery";
 // import { HttpClient } from '@angular/common/http';
 import { Papa } from 'ngx-papaparse';
 import waitForPapaParse from 'wait-for-papa-parse';
+import 'chartjs-plugin-zoom';
 // import hammer from 'angular-hammer';
 // import { timer } from 'rxjs';
 // import { getLocaleDateTimeFormat } from '@angular/common';
@@ -49,10 +50,10 @@ export class MyTimeseriesLargeComponent implements OnInit {
       }
       min_time = labelsArray[1];
       max_time = labelsArray[labelsArray.length -1];
-      console.log(min_time);
-      console.log(max_time);      
-      console.log(line1);
-      console.log(labelsArray);
+      // console.log(min_time);
+      // console.log(max_time);      
+      // console.log(line1);
+      // console.log(labelsArray);
       _this.chartLabels = labelsArray;
       _this.chartLegend = true;
       

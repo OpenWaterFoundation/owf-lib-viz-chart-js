@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import 'chartjs-plugin-zoom';
 
 @Component({
   selector: 'app-my-timeseries-chart',
@@ -119,7 +120,31 @@ export class MyTimeseriesChartComponent implements OnInit {
     {
       fill: false,
       label: 'Purchases',
-      data: [40, 100, 23, 40, 50, 70, 30, 33],
+      data: [{
+        x: new Date("2017-08-16"),
+        y: 40
+      },{
+        x: new Date("2017-08-17"),
+        y: 100
+      },{
+        x: new Date("2017-08-18"),
+        y: 23
+      },{
+        x: new Date("2017-08-19"),
+        y: 40
+      },{
+        x: new Date("2017-08-20"),
+        y: 50
+      },{
+        x: new Date("2017-08-21"),
+        y: 70
+      },{
+        x: new Date("2017-08-22"),
+        y: 30
+      },{
+        x: new Date("2017-08-23"),
+        y: 33
+      }],
       borderColor: '#5c9da3',
       backgroundColor: '#5c9da3',
       lineTension: 0
