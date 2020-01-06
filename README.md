@@ -1,12 +1,12 @@
 # owf-lib-viz-chart-js
-Open Water Foundation demonstration of chart.js library
-
-# Additional Documentation
-[Chart.js Site](chartjs.org)
-
-[Chart.js Github](https://github.com/chartjs/Chart.js)
-
-[Chart.js Documentation](https://www.chartjs.org/docs/latest/)
+Open Water Foundation demonstration of chart.js library. This repository includes examples of the following charts in angular:
+* Bar Chart
+* Line Chart
+* Timeseries Chart (zooming and scrolling enabled)
+* Large Timeseries Chart (zooming and scrolling enabled)
+* Doughnut Chart 
+* Radar Chart
+* Pie Chart
 
 # Basic Chart Setup
 
@@ -92,3 +92,14 @@ To install Hammerjs with npm run the following command:
 
 For more information see the Hammerjs documentaion [here](https://hammerjs.github.io/).
 Hammerjs is not used in this repository.
+
+# Links
+[Chart.js Site](chartjs.org)
+
+[Chart.js Github](https://github.com/chartjs/Chart.js)
+
+[Chart.js Documentation](https://www.chartjs.org/docs/latest/)
+
+[chartjs-plugin-zoom Github](https://github.com/chartjs/chartjs-plugin-zoom)
+
+[Hammerjs](https://hammerjs.github.io/)
