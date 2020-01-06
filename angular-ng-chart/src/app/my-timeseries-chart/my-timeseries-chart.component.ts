@@ -29,6 +29,8 @@ export class MyTimeseriesChartComponent implements OnInit {
         distribution: "linear",
         display: true,
         time: {
+          /* For the zoom and pan to work on the timeseries charts
+          there must be a min and max set */
           min: new Date("2017-08-16"),
           max: new Date("2017-08-23"),
           tooltipFormat: 'MM/DD/YYYY'
