@@ -68,6 +68,7 @@ The options for the chart can be found in the chart.js documentation [here](http
 For the timeseries charts scrolling and zooming is enabled with chartjs-plugin-zoom. 
 
 To install chartjs-plugin-zoom with npm run the following command:
+
 `npm install chartjs-plugin-zoom`
 
 To use charjs-plugin-zoom in your code add the following in the options section of the chart.
@@ -96,6 +97,7 @@ chartjs-plugin-zoom see the repository on github [here](https://github.com/chart
 Hammerjs can also be installed along with chartjs-plugin-zoom to enable zooming and scrolling on a touchscreen.
 
 To install Hammerjs with npm run the following command:
+
 `npm install hammerjs`
 
 For more information see the Hammerjs documentaion [here](https://hammerjs.github.io/).
