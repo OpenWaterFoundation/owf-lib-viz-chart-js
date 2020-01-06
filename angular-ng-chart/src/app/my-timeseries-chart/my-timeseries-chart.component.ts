@@ -18,7 +18,6 @@ export class MyTimeseriesChartComponent implements OnInit {
         zoom: {
           enabled: true,
           mode: 'x',
-          // drag: true
         }
       },
     },

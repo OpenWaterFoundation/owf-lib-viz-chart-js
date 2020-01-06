@@ -45,7 +45,7 @@ export class MyTimeseriesLargeComponent implements OnInit {
         line2[i-1] = chartData['data'][i][2];
         line3[i-1] = chartData['data'][i][3];
       }
-      
+
       min_time = labelsArray[1];
       max_time = labelsArray[labelsArray.length -1];
 
@@ -91,7 +91,6 @@ export class MyTimeseriesLargeComponent implements OnInit {
               enabled: true,
               mode: 'x',
               onZoom: function({chart}) { console.log(`I'm zooming!!!`); },
-              // drag: true
             }
           },
         },
