@@ -38,12 +38,14 @@ export class MyTimeseriesLargeComponent implements OnInit {
       var line3 = [];
       var min_time;
       var max_time;
+
       for(var i = 1; i < chartData['data'].length; i++){
         labelsArray[i-1] = new Date(chartData['data'][i][0]);
         line1[i-1] = chartData['data'][i][1];
         line2[i-1] = chartData['data'][i][2];
         line3[i-1] = chartData['data'][i][3];
       }
+
       min_time = labelsArray[1];
       max_time = labelsArray[labelsArray.length -1];
 
@@ -89,7 +91,6 @@ export class MyTimeseriesLargeComponent implements OnInit {
               enabled: true,
               mode: 'x',
               onZoom: function({chart}) { console.log(`I'm zooming!!!`); },
-              // drag: true
             }
           },
         },
@@ -99,6 +100,8 @@ export class MyTimeseriesLargeComponent implements OnInit {
             type: 'time',
             distribution: 'linear',
             time:{
+              /* For the zoom and pan to work on the timeseries charts
+              there must be a min and max set */
               min: min_time,
               max: max_time,
               tooltipFormat: 'MM/DD/YYYY'
