@@ -8,6 +8,14 @@ Open Water Foundation demonstration of chart.js library. This repository include
 * Radar Chart
 * Pie Chart
 
+# Chart.js
+Chart.js is responsive, it allows for mixed chart types (ex. a line chart with a bar graph on top of it), allows for different axis types (date time, logarithmic, and even custom scales), and it allows for animation.
+
+Chart.js allows the following types of charts to be made: combined types, line, bar, horizontal bar, pie/doughnut, polar area, radar, scatter, and bubble.
+It does not support gauges or maps (heat, tree, etc.).
+
+A list of common plugins that are used with chart.js can be found [here](https://github.com/chartjs/awesome).
+
 # Basic Chart Setup
 
 ### Angular HTML File:
