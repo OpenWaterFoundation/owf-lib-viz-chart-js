@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Chart } from 'chart.js';
-
 @Component({
   selector: 'app-my-bar-chart',
   templateUrl: './my-bar-chart.component.html',
