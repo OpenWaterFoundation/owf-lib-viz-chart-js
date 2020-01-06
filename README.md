@@ -38,7 +38,7 @@ public lineChartData = [
     {data: [28, 48, 40, 19, 86, 27, 90], label: 'Series B'}
 ];
 ```
-### Plain Javascript and HTMl version:
+### Plain Javascript and HTML version:
 ```
 <canvas id="myChart" width="400" height="400"></canvas>
 <script>
@@ -51,7 +51,11 @@ var myChart = new Chart(ctx, {
 </script>
 ```
 
-The options for the chart can be found in the chart.js documentation.
+The options for the chart can be found in the chart.js documentation [here](https://www.chartjs.org/docs/latest/).
+
+# Zooming and Scrolling
+
+### chartjs-plugin-zoom:
 
 For the timeseries charts scrolling and zooming is enabled with chartjs-plugin-zoom. 
 
@@ -78,6 +82,8 @@ plugins: {
 The onZoom and onPan functions are optional. They allow you to run a segment of code when the user zooms or pans on the chart.
 The mode can be set to `x`, `xy`, or `y` depending on what axis you want the zoom or pan to be on. For more information on 
 chartjs-plugin-zoom see the repository on github [here](https://github.com/chartjs/chartjs-plugin-zoom).
+
+### Hammerjs:
 
 Hammerjs can also be installed along with chartjs-plugin-zoom to enable zooming and scrolling on a touchscreen.
 
